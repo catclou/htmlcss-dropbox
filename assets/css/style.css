@@ -1,0 +1,57 @@
+/* reset starts here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* reset ends here */
+
+/* header stuff */
+
+header {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    border: 2px solid aqua;
+}
+
+header::after {
+    content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+    margin: 18px;
+    float: left;
+    display: inline;
+}
+
+.login-button {
+    margin: 18px;
+    float: right;
+    display: inline;
+}
+
+.left-top-nav, .right-top-nav {
+    width: 30%;
+    margin: 18px;
+    display: inline;
+    float: left;
+}
+
+.right-top-nav {
+    float: right;
+}
+
+.left-top-nav ul li, 
+.right-top-nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 18px;
+}
+
+.left-top-nav ul li a,
+.right-top-nav ul li a {
+    text-decoration: none;
+}
