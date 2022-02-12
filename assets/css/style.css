@@ -9,6 +9,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 /* reset ends here */
 
@@ -36,32 +37,51 @@ header::after {
 }
 
 .login-button {
-    margin: 1.5%;
+    margin: 1.2%;
     margin-left: 0;
     float: right;
     display: inline;
+    background-color: #0061ff;
+    border: none;
+    padding: 0.3% 1% 0.5% 1%;
+    color: white;
 }
 
 .left-top-nav, .right-top-nav {
     height: 100%;
     display: inline;
     float: left;
-    margin: 1.6%;
+    margin-top: calc(9vh / 1.6 - 17.5px);
+}
+
+.left-top-nav {
+    margin-left: 2%;
 }
 
 .right-top-nav {
     float: right;
+    margin-right: 2%;
 }
 
 .left-top-nav ul li, 
 .right-top-nav ul li {
     list-style: none;
     display: inline;
+    padding: 2vh 1vw 2vh 1vw;
+}
+
+.left-top-nav ul li:hover , 
+.right-top-nav ul li:hover {
+    border-bottom: 2px solid black;
 }
 
 .left-top-nav ul li a,
 .right-top-nav ul li a {
+    width: 100%;
     text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
 }
 
 /* hero stuff */
