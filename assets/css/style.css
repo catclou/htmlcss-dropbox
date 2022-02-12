@@ -1,6 +1,6 @@
 /* THINGS TO REMEMBER */
 
-    /* change the height from vh to % */
+    
 
 /* THINGS TO REMEMBER */
 
@@ -135,6 +135,7 @@ header::after {
     width: 80%;
     margin: auto;
     margin-top: 10%;
+    margin-bottom: -8%;
     border: 1px dotted red;
 }
 
@@ -190,4 +191,28 @@ header::after {
     margin: 3%;
     margin-top: 0;
     float: left;
+}
+
+/* Entra in contatto stuff */
+
+#partners {
+    width: 45%;
+    margin: 3%;
+    display: inline;
+    float: left;
+}
+
+.caption {
+    width: calc(100% - 55% - 6%);
+    margin: 3%;
+    display: inline;
+    float: left;
+}
+
+#contact-partner {
+    margin: 10% 0 10% 0;
+}
+
+#partner-button {
+    margin: 10% 0 10% 0;
 }
