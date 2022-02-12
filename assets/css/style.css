@@ -90,7 +90,6 @@ header::after {
     height: 90%;
     width: 90%;
     margin: auto;
-    border: 2px dotted grey;
     position: relative;
     bottom: -110px;
 }
@@ -109,14 +108,12 @@ header::after {
 
 .big-title {
     width: calc(100% - 6%);
-    border: 1px solid white;
     margin: 3%;
     float: left;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .col-1 {
-    border: 1px solid white;
     margin: 3%;
     margin-top: 0;
     width: calc(100% - 6% - 63%);
@@ -124,7 +121,6 @@ header::after {
 }
 
 .img-col-2 {
-    border: 3px solid black;
     width: 60%;
     float: left;
     display: inline;
@@ -133,19 +129,33 @@ header::after {
 
 .free-trial {
     display: block;
-    margin-top: 5%;
+    margin: 10% 1.2% 1.2% 0; 
+    display: block;
+    float: left;
+    background-color: #0061ff;
+    border: none;
+    padding: 2% 3% 2% 3%;
+    color: white;
 }
 
 .stop-trial {
     display: block;
     margin-top: 3%;
+    float: left;
+    margin-right: calc(100% - 168px);
+    font-size: 0.7rem;
+    font-weight: 600;
 }
 
 .arrow-down {
-    width: 50px;
-    height: 50px;
-    border: 1px dotted green;
-    margin-top: 5%;
+    margin-top: 8%;
+    margin-left: 0;
+    display: block;
+    float: left;
+}
+
+.fa-arrow-down, .fa-solid {
+    font-size: 2rem;
 }
 
 /* Trova il piano stuff */
