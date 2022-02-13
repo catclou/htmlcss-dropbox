@@ -1,6 +1,8 @@
 /* THINGS TO REMEMBER */
 
-    
+    /* Find a way to style the radio button */
+    /* Find a way to style shape, color and size of a list bullet */
+    /* Add the icons in the plan section */
 
 /* THINGS TO REMEMBER */
 
@@ -166,7 +168,7 @@ header::after {
     margin: auto;
     margin-top: 10%;
     margin-bottom: -8%;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 .standard-section::after {
@@ -175,9 +177,12 @@ header::after {
 	clear: both;
 }
 
+label {
+    margin: 0 0.5% 0 0.5%;
+}
+
 .section-titles {
     width: calc(100% - 6%);
-    border: 1px solid indigo;
     margin: 3%;
     float: left;
     font-size: 2.5rem;
@@ -185,7 +190,6 @@ header::after {
 
 .radio-row {
     width: calc(100% - 6%);
-    border: 1px solid indigo;
     margin: 3%;
     margin-top: 0;
     float: left;
@@ -193,7 +197,6 @@ header::after {
 
 .plans-row {
     width: calc(100% - 6%);
-    border: 1px solid indigo;
     margin: 3%;
     margin-top: 0;
     float: left;
@@ -206,21 +209,115 @@ header::after {
 }
 
 .plan {
-    border: 1px solid indigo;
+    border: 1px solid lightgrey;
     float: left;
     width: calc(100% / 3 - 2%);
+}
+
+#singolo, #team, #advanced, #enterprise {
+    margin-left: calc(100% / 2 - 21.5px);
+    font-size: small;
+    font-weight: 500;
+}
+
+.inner-plan {
+    margin: 6%;
+}
+
+.hr-plans {
+    border: 0.5px solid lightgrey;
 }
 
 #standard-plan {
     margin: 0 3% 0 3%;
 }
 
+.plan-price {
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: block;
+    margin-top: 4%;
+}
+
+.plan-conditions {
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
+    margin: 1% 0 6% 0;
+}
+
+.user-conditions {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 0 10% 0;
+    display: block;
+}
+
+.free-trial-col {
+    display: block;
+    width: 100%;
+    background-color: #0061ff;
+    border: none;
+    padding: 2% 2% 2% 2%;
+    color: white;
+    margin-bottom: 6%;
+}
+
+#buy-now {
+    color: #0061ff;
+}
+
+.plan-hr {
+    width: 25%;
+    border: 1px solid lightgrey;
+}
+
+.plan-features li {
+    list-style-image: url("../img/check-solid.svg");
+    margin: 4%;
+}
+
+.plan-features li::before {
+    color: #0061ff;
+}
+
 .enterprise-row {
     width: calc(100% - 6%);
-    border: 1px solid indigo;
+    border: 1px solid lightgrey;
     margin: 3%;
     margin-top: 0;
     float: left;
+}
+
+.enterprise-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.inner-plan-enterprise {
+    margin: 2%;
+    width: 65%;
+    float: left;
+}
+
+.plan-price-enterprise {
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: block;
+    margin-top: 2%;
+}
+
+.contact-salesmen {
+    margin: 2%;
+    float: right;
+    width: 25%;
+    display: inline;
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 0.6% 0 0.6% 0;
 }
 
 /* Entra in contatto stuff */
@@ -241,8 +338,18 @@ header::after {
 
 #contact-partner {
     margin: 10% 0 10% 0;
+    font-size: 1.4rem;
+}
+
+.partner-caption {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 
 #partner-button {
     margin: 10% 0 10% 0;
+    background-color: transparent;
+    border: 1px solid black;
+    display: inline;
+    padding: 1% 2% 1% 2%;
 }
