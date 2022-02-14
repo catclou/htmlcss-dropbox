@@ -482,4 +482,34 @@ label {
     background-color: #0027cf;
 }
 
+/* Porta Dropbox nella tua azienda stuff */
 
+.porta-Dropbox {
+    width: 100%;
+    height: 40vh;
+    background-color: #b4d0e7;
+}
+
+.porta-Dropbox::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h2-porta {
+    margin-top: 7%;
+    margin-left: 14%;
+    float: left;
+    font-size: 2rem;
+    display: inline;
+    color: #61082b;
+} 
+
+.inizia-prova {
+    margin-top: 7%;
+    margin-right: 14%;
+    float: right;
+    border: none;
+    background-color: white;
+    padding: 0.5% 2% 0.5% 2%;
+}
