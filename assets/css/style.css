@@ -1,7 +1,7 @@
 /* THINGS TO REMEMBER */
 
     /* Find a way to style the radio button */
-    /* Find a way to style shape, color and size of a list bullet */
+    /* Find a way to style shape, color and size of a list bullet (FontAwesome!)*/
     /* Add the icons in the plan section */
 
 /* THINGS TO REMEMBER */
@@ -15,7 +15,7 @@
 }
 /* reset ends here */
 
-/* header stuff */
+/* ANCHOR header stuff */
 
 header {
     position: fixed;
@@ -86,7 +86,7 @@ header::after {
     font-weight: 600;
 }
 
-/* hero stuff */
+/* ANCHOR hero stuff */
 
 .hero-section {
     height: 90%;
@@ -160,7 +160,7 @@ header::after {
     font-size: 2rem;
 }
 
-/* Trova il piano stuff */
+/* ANCHOR Trova il piano stuff */
 
 .standard-section {
     height: 90%;
@@ -320,7 +320,7 @@ label {
     padding: 0.6% 0 0.6% 0;
 }
 
-/* Entra in contatto stuff */
+/* ANCHOR Entra in contatto stuff */
 
 #partners {
     width: 45%;
@@ -354,7 +354,7 @@ label {
     padding: 1% 2% 1% 2%;
 }
 
-/* Esegui più operazioni stuff */
+/* ANCHOR Esegui più operazioni stuff */
 
 .business-card-row {
     width: 100%;
@@ -383,14 +383,14 @@ label {
     line-height: 1.3rem;
 }
 
-/* Più di 500.000 (...) stuff */
+/*  ANCHOR Più di 500.000 (...) stuff */
 
 .about-users {
     margin: 3%;
     color: #0061ff;
 }
 
-/* Big banner stuff */
+/* ANCHOR Big banner stuff */
 
 .big-banner {
     width: 100%;
@@ -455,11 +455,11 @@ label {
 
 #Arizona-State-University {
     background-color: #9ef7d4;
-    /* ??? HOW CAN I FIX IT ??? */
 }
 
 #University-of-Florida {
     background-color: #ff6c31;
+    /* ??? HOW CAN I FIX IT ??? */
 }
 
 #Topps {
@@ -482,7 +482,7 @@ label {
     background-color: #0027cf;
 }
 
-/* Porta Dropbox nella tua azienda stuff */
+/* ANCHOR Porta Dropbox nella tua azienda stuff */
 
 .porta-Dropbox {
     width: 100%;
@@ -511,5 +511,38 @@ label {
     float: right;
     border: none;
     background-color: white;
-    padding: 0.5% 2% 0.5% 2%;
+    padding: 0.5% 3% 0.5% 3%;
 }
+
+/* ANCHOR Domande frequenti stuff */
+
+#FAQ {
+    margin: 0 0 3% 0;
+}
+
+.FAQ-hr {
+    border: 1px solid lightgrey;
+}
+
+.FAQ-row {
+    margin: 2% 0 2% 0;
+}
+
+.FAQ-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.differences {
+    display: block;
+    float: left;
+}
+
+.fa-solid.fa-angle-down {
+    display: inline;
+    float: right;
+    margin: 0% 2% 0 0;
+    font-size: medium;
+}
+
