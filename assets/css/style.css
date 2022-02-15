@@ -546,3 +546,68 @@ label {
     font-size: medium;
 }
 
+/* footer stuff */
+
+footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 15%;
+}
+
+.footer-row {
+    /* border: 1px dashed darkcyan; */
+    width: 88%;
+    margin: auto;
+}
+
+.footer-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-card {
+    /* border: 1px dotted goldenrod; */
+    margin: 5% 9% 5% 0;
+    display: inline;
+    float: left;
+}
+
+.footer-list-title {
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 8%;
+}
+
+.list-item-footer {
+    margin: 3% 0;
+    color: white;
+    font-size: small;
+    list-style: none;
+}
+
+.footer-hr {
+    border: 1px solid lightgrey;
+    float: left;
+    width: 10%;
+    display: block;
+}
+
+.language-row {
+    float: left;
+    width: 100%;
+    /* border: 1px dotted salmon; */
+    display: block;
+    margin: 2% 0;
+    color: lightgrey;
+}
+
+.language-it {
+    /* color: lightgrey; */
+    font-size: 0.7rem;
+}
+
+.fa-solid.fa.earth-americas {
+    color: lightgrey;
+}
