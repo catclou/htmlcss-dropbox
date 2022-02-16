@@ -215,7 +215,10 @@ label {
 }
 
 #singolo, #team, #advanced, #enterprise {
-    margin-left: calc(100% / 2 - 21.5px);
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
     font-size: small;
     font-weight: 500;
 }
@@ -273,12 +276,15 @@ label {
     border: 1px solid lightgrey;
 }
 
-.plan-features li {
-    list-style-image: url("../img/check-solid.svg");
-    margin: 4%;
+.plan-features.fa-ul {
+    margin-left: 0;
 }
 
-.plan-features li::before {
+.plan-features.fa-ul > li {
+    margin: 4% 0;
+}
+
+i.fa-solid.fa-check.fa-sm::before {
     color: #0061ff;
 }
 
