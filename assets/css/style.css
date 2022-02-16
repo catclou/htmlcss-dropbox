@@ -575,16 +575,19 @@ footer {
 
 .footer-list-title {
     color: white;
-    font-weight: 900;
-    font-size: larger;
+    font-weight: 800;
     margin-bottom: 8%;
 }
 
 .list-item-footer {
     margin: 3% 0;
-    color: white;
     font-size: small;
     list-style: none;
+}
+
+.ul-footer .list-item-footer a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-hr {
@@ -604,10 +607,9 @@ footer {
 }
 
 .language-it {
-    /* color: lightgrey; */
     font-size: 0.7rem;
 }
 
-.fa-solid.fa.earth-americas {
-    color: lightgrey;
+.fa-solid.fa-caret-up.fa-2xs, .fa-solid.fa-earth-americas.fa-sm {
+    vertical-align: baseline;
 }
